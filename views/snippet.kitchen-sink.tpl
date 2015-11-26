@@ -1,9 +1,9 @@
-<h1>Material-ui Kitchen</h1>
-<p>MUI is a lightweight CSS framework that follows Google's Material Design guidelines</p>
+<a href="https://www.muicss.com/docs/v1/css-js/boilerplate-html" target="_blank" class="mui-btn mui-btn--primary">Full CSS Documentation</a>
 
-<h4>Font Awesome Installed:  <i class="fa fa-globe"></i> Hello, world!</h4>
 
-<mui-btn href="https://www.muicss.com/docs/v1/css-js/boilerplate-html" color="primary">Button</mui-btn>
+<h4>Font Awesome Install Test:  <i class="fa fa-globe"></i> Hello, world!</h4>
+
+
 
 <h1>Grid</h1>
 <div class="mui-row">
