@@ -1,6 +1,9 @@
 <h1>Material-ui Kitchen</h1>
 <p>MUI is a lightweight CSS framework that follows Google's Material Design guidelines</p>
+
 <h4>Font Awesome Installed:  <i class="fa fa-globe"></i> Hello, world!</h4>
+
+<mui-btn href="https://www.muicss.com/docs/v1/css-js/boilerplate-html" color="primary">Button</mui-btn>
 
 <h1>Grid</h1>
 <div class="mui-row">
@@ -72,7 +75,7 @@
 <div class="mui-tabs__pane" id="pane-justified-2"><br>Pane-2<br></div>
 <div class="mui-tabs__pane" id="pane-justified-3"><br>Pane-3<br></div>
 
-<h1>Buttons</h1>
+<h1>Typography</h1>
 <div class="mui--text-display4">Display4</div>
 <div class="mui--text-display3">Display3</div>
 <div class="mui--text-display2">Display2</div>
@@ -85,6 +88,9 @@
 <div class="mui--text-caption">Caption</div>
 <div class="mui--text-menu">Menu</div>
 <div class="mui--text-button">Button</div>
+
+<h1>Buttons</h1>
+
 
 <hr>
 <div>
