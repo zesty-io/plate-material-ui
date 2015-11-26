@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plate_variables>
    <created_date>2015-11-08</created_date>
-   <plate>Skeleton Framework</plate>
+   <plate>Material UI</plate>
    <created_by>Zesty</created_by>
-   <kitchen>skeleton</kitchen>
+   <kitchen>material-ui</kitchen>
    <variables>
       <color name="body-bg" name_friendly="Body Background Color">
          <category>1</category>
