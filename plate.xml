@@ -27,8 +27,8 @@
 	<head>
 		<doctype>html5</doctype>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<!-- load MUI -->
 		<link href="//cdn.muicss.com/mui-0.2.3/css/mui.min.css" rel="stylesheet" type="text/css" />
 		<script src="//cdn.muicss.com/mui-0.2.3/js/mui.min.js"></script>
