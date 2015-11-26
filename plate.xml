@@ -19,6 +19,8 @@
 	<!-- clippings -->
 	<clippings>
 		<text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Material UI]]></text>
+		<images name="logo" name_friendly="Site Logo" limit="1"></images>
+		<text name="footer_text" name_friendly="Footer Text"><![CDATA[Made with love by MUI]]></text>
 	</clippings>
 
 	<!-- head files -->
