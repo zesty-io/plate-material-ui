@@ -5,14 +5,12 @@
 			<fields>
 				<text name="title" name_friendly="Lead in Title" required="1" />
 				<wysiwyg_advanced name="content" name_friendly="Intro Text" />
-				<images name="image" name_friendly="Main Image" limit="1" />
 			</fields>
 
 			<items>
 				<item link_title="Homepage" path_part="zesty_home">
-					<title><![CDATA[Skeleton]]></title>
-					<content><![CDATA[<p>Stop coding non-responsive sites. Let users view sites from anywhere.</p>]]></content>
-					<image><![CDATA[https://github.com/dhg/Skeleton/blob/gh-pages/examples/landing/images/iphone.png]]></image>
+					<title><![CDATA[Matierial UI]]></title>
+					<content><![CDATA[<p>MUI is a lightweight CSS framework that follows Google's Material Design guidelines</p>]]></content>
 				</item>
 			</items>
 		</templateset>
@@ -21,15 +19,15 @@
 	<!-- clippings -->
 	<clippings>
 		<text name="site_name" name_friendly="Site Name" required="1">
-			<![CDATA[Skeleton]]>
+			<![CDATA[Material UI]]>
 		</text>
 
 		<images name="logo" name_friendly="Site Logo" limit="1">
-			https://raw.githubusercontent.com/dhg/Skeleton/gh-pages/images/favicon.png
+		<![CDATA[https://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VG9DQVluOFJ4Tnc/materialdesign_principles_metaphor.png]]>
 		</images>
 
 		<text name="footer_text" name_friendly="Footer Text">
-			<![CDATA[Footer text can be updated in Content Clippings]]>
+			<![CDATA[Made with ♥ by MUI]]>
 		</text>
 
 	</clippings>
@@ -46,7 +44,7 @@
 		<script src="//cdn.muicss.com/mui-0.2.3/webcomponents/mui-webcomponents.js"></script>
 		<!-- load icon font -->
      <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  
+
 		<!-- fonts -->
 		<link href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700" rel="stylesheet" type="text/css" />
 
