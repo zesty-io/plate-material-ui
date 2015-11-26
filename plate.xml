@@ -33,7 +33,7 @@
 		<link href="//cdn.muicss.com/mui-0.2.3/css/mui.min.css" rel="stylesheet" type="text/css" />
 		
 		<script src="//cdn.muicss.com/mui-0.2.3/js/mui.min.js"></script>
-		<script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>		
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>		
 		<script src="//cdn.muicss.com/mui-0.2.3/webcomponents/mui-webcomponents.js"></script>
 		<!-- load icon font -->
 		<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
