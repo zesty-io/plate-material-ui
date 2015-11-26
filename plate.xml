@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes'?>
+<plate>
+	<ingredients>
+		<templateset name="homepage" name_friendly="Homepage" view="homepage">
+			<fields>
+				<text name="title" name_friendly="Lead in Title" required="1" />
+				<wysiwyg_advanced name="content" name_friendly="Intro Text" />
+				<images name="image" name_friendly="Main Image" limit="1" />
+			</fields>
+
+			<items>
+				<item link_title="Homepage" path_part="zesty_home">
+					<title><![CDATA[Skeleton]]></title>
+					<content><![CDATA[<p>Stop coding non-responsive sites. Let users view sites from anywhere.</p>]]></content>
+					<image><![CDATA[https://github.com/dhg/Skeleton/blob/gh-pages/examples/landing/images/iphone.png]]></image>
+				</item>
+			</items>
+		</templateset>
+	</ingredients>
+
+	<!-- clippings -->
+	<clippings>
+		<text name="site_name" name_friendly="Site Name" required="1">
+			<![CDATA[Skeleton]]>
+		</text>
+
+		<images name="logo" name_friendly="Site Logo" limit="1">
+			https://raw.githubusercontent.com/dhg/Skeleton/gh-pages/images/favicon.png
+		</images>
+
+		<text name="footer_text" name_friendly="Footer Text">
+			<![CDATA[Footer text can be updated in Content Clippings]]>
+		</text>
+
+	</clippings>
+
+	<!-- head files -->
+	<head>
+		<doctype>html5</doctype>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- load MUI -->
+		<link href="//cdn.muicss.com/mui-0.2.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+		<script src="//cdn.muicss.com/mui-0.2.3/js/mui.min.js"></script>
+		<script src="//cdn.muicss.com/mui-0.2.3/webcomponents/mui-webcomponents.js"></script>
+		<!-- load icon font -->
+     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  
+		<!-- fonts -->
+		<link href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700" rel="stylesheet" type="text/css" />
+
+	</head>
+
+</plate>
