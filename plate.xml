@@ -9,7 +9,7 @@
 
 			<items>
 				<item link_title="Homepage" path_part="zesty_home">
-					<title><![CDATA[Matierial UI]]></title>
+					<title><![CDATA[Material UI]]></title>
 					<content><![CDATA[<p>MUI is a lightweight CSS framework that follows Google's Material Design guidelines</p>]]></content>
 				</item>
 			</items>
