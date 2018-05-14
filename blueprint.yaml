@@ -3,8 +3,8 @@ Meta:
  Author: Zesty.io
  Cover: cover.png
  Shield: shield.png
-FileStructure:
- Head:  head.xhtml ## referenced below
+Files:
+ Head:  head.xhtml ## referenced below optional item
  Views: views/
 Collections:
 -
