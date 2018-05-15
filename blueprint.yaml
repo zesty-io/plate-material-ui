@@ -1,13 +1,13 @@
-Name: Material UI
-Type: blueprint
-Meta:
- Author: Zesty.io
- Cover: cover.png
- Shield: shield.png
-Files:
- Head:  head.xhtml ## referenced below optional item
- Views: views/
-Collections:
+name: Material UI
+type: blueprint
+meta:
+ author: Zesty.io
+ cover: cover.png
+ shield: shield.png
+files:
+ head:  head.xhtml ## referenced below optional item
+ views: views/
+collections:
 -
  label: Homepage
  name:  homepage
