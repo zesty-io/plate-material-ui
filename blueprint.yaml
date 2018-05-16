@@ -27,8 +27,10 @@ settings: ## Initial site settings can be overridden here. All initial settings 
 
 files:
  head:  head.xhtml ## referenced below optional item
+ styleVariables: style-variables.yaml
  views: views/ ## includes all .tpl files within this folder.
  javascript: js/
+ styles: styles/
 
 modules:
  -
@@ -61,7 +63,7 @@ collections:
  name:  homepage ### All collection names in a blueprint must be unique
  view:  views/homepage.tpl ### relative path
  type:  templateset ### we need to update this naming convention
- content: homepage-contents.yaml ### referenced below
+ content: contents/homepage-contents.yaml ### referenced below
  fields:
   -
    name: title ### Field name cannot begin with _, _ are for reserved field names
@@ -77,7 +79,7 @@ collections:
  label: Clippings
  name:  clippings
  type:  dataset
- content: clippings-contents.yaml
+ content: contents/clippings-contents.yaml
  fields:
   -
    name: site_name
