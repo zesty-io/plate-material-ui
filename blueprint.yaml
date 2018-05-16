@@ -1,24 +1,72 @@
 name: Material UI
-type: blueprint
+type: blueprint ## module, plugin, collection, content
+version: 1.0
 meta:
- author: Zesty.io
- cover: cover.png
- shield: shield.png
+ ## author will be read off Github URL. author: Zesty.io
+ cover: cover.png ## Relative path to image or remote image URL
+ shield: shield.png ## Relative path to image or remote image URL
+settings: ## Initial site settings can be overridden here. All initial settings have a default value if not set in YAML.
+  -
+  general:
+   robots_on: true
+   site_protocol: http
+   always_redirect_to_https: false
+   preferred_domain_prefix: false
+   show_in_title: true
+  developer:
+   ajax_cors_allow_any_origin: false
+   parsley_debugger: false
+   tips: true
+   basic_content_api_enabled: false
+   basic_content_api_cors_allow_any_origin: false
+  contact:
+   sending_email: NULL
+   recipients: NULL # sends
+   reply_email: NULL
+
 files:
  head:  head.xhtml ## referenced below optional item
- views: views/
+ views: views/ ## includes all .tpl files within this folder.
+modules:
+ -
+  url: https://raw.githubusercontent.com/zesty-io/module-blog/master/module.yaml
+  required: true ### Must specify, no default if omitted so will fail schema check
+
+plugins:
+ -
+  url: https://raw.githubusercontent.com/zesty-io/plugin-blog/master/plugin.yaml
+  required: true
+ -
+  url: https://raw.githubusercontent.com/zesty-io/plugin-team/master/plugin.yaml
+  required: false
+-
+ url: https://raw.githubusercontent.com/zesty-io/plugin-google-tag-manager/master/plugin.yaml
+ required: false
+-
+ url: https://raw.githubusercontent.com/zesty-io/plugin-google-analytics/master/plugin.yaml
+ required: false
+-
+ url: https://raw.githubusercontent.com/zesty-io/plugin-stripe/master/plugin.yaml
+ required: false
+-
+ url: https://raw.githubusercontent.com/zesty-io/plugin-twitter/master/plugin.yaml
+ required: false
+-
+ url: https://raw.githubusercontent.com/zesty-io/plugin-paypal/master/plugin.yaml
+ required: false
+
 collections:
 -
  label: Homepage
- name:  homepage
+ name:  homepage ### All collection names in a blueprint must be unique
  view:  views/homepage.tpl ### relative path
  type:  templateset ### we need to update this naming convention
- content: homepage-item.yaml ### referenced below
+ content: homepage-contents.yaml ### referenced below
  fields:
   -
-   name: title
+   name: title ### Field name cannot begin with _, _ are for reserved field names
    label: Lead in title
-   type: text
+   type: text ### Field types drawn from https://developer.zesty.io/docs/content-schemas/set-fields/
    options:
     required: true
   -
@@ -29,7 +77,7 @@ collections:
  label: Clippings
  name:  clippings
  type:  dataset
- content: clippings-items.yaml
+ content: clippings-contents.yaml
  fields:
   -
    name: site_name
