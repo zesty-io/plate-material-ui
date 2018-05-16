@@ -1,3 +1,4 @@
+type: variables
 variables:
  -
   name: container-large-desktop
