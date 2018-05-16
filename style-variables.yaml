@@ -84,13 +84,13 @@ variables:
   edit_in_content: 1
   locked: 0
   value: underline
+  options:
    -
     description: Underline
     value: underline
    -
     description: None
     value: none
-   -
  -
   name: font-family-base
   type: font_picker
