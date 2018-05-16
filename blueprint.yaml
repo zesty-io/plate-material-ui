@@ -19,6 +19,7 @@ settings: ## Initial site settings can be overridden here. All initial settings 
    tips: true
    basic_content_api_enabled: false
    basic_content_api_cors_allow_any_origin: false
+   auto_include_js_in_head: true # If this is set to false, you must include a refrence to site.js manually in the code to use the custom javascript files
   contact:
    sending_email: NULL
    recipients: NULL # sends
@@ -27,9 +28,11 @@ settings: ## Initial site settings can be overridden here. All initial settings 
 files:
  head:  head.xhtml ## referenced below optional item
  views: views/ ## includes all .tpl files within this folder.
+ javascript: js/
+
 modules:
  -
-  url: https://raw.githubusercontent.com/zesty-io/module-blog/master/module.yaml
+  url: https://raw.githubusercontent.com/zesty-io/module-google-analytics/master/module.yaml
   required: true ### Must specify, no default if omitted so will fail schema check
 
 plugins:
@@ -41,9 +44,6 @@ plugins:
   required: false
 -
  url: https://raw.githubusercontent.com/zesty-io/plugin-google-tag-manager/master/plugin.yaml
- required: false
--
- url: https://raw.githubusercontent.com/zesty-io/plugin-google-analytics/master/plugin.yaml
  required: false
 -
  url: https://raw.githubusercontent.com/zesty-io/plugin-stripe/master/plugin.yaml
