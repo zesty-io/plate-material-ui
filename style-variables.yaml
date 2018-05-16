@@ -99,7 +99,7 @@ variables:
   sort: 1
   edit_in_content: 1
   locked: 0
-  value: "Hind", Helvetica, Arial, sans-serif
+  value: "'Hind', Helvetica, Arial, sans-serif"
  -
   name: text-color
   type: color
@@ -129,7 +129,7 @@ variables:
   sort: 9
   edit_in_content: 1
   locked: 0
-  value: 'Droid Serif', 'Arial', 'Helvetica', 'sans-serif'
+  value: "'Droid Serif', 'Arial', 'Helvetica', 'sans-serif'"
  -
   name: headings-font-family
   type: font_picker
@@ -139,7 +139,7 @@ variables:
   sort: 9
   edit_in_content: 1
   locked: 0
-  value: 'Montserrat', 'Arial', 'Helvetica', 'sans-serif'
+  value: "'Montserrat', 'Arial', 'Helvetica', 'sans-serif'"
  -
   name: headings-font-weight
   type: dropdown
