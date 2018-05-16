@@ -1,4 +1,4 @@
-type: style-variables
+type: style_variables
 variables:
  -
   name: container-large-desktop
