@@ -276,7 +276,7 @@ variables:
   sort: 3
   edit_in_content: true
   locked: false
-  value: \#5FCFA7
+  value: "#5FCFA7"
   options:
    -
     description: No transition
