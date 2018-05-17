@@ -6,7 +6,6 @@ meta:
  cover: cover.png ## Relative path to image or remote image URL
  shield: shield.png ## Relative path to image or remote image URL
 settings: ## Initial site settings can be overridden here. All initial settings have a default value if not set in YAML.
-  -
   general:
    robots_on: true
    site_protocol: http
@@ -44,18 +43,18 @@ plugins:
  -
   url: https://raw.githubusercontent.com/zesty-io/plugin-team/master/plugin.yaml
   required: false
--
- url: https://raw.githubusercontent.com/zesty-io/plugin-google-tag-manager/master/plugin.yaml
- required: false
--
- url: https://raw.githubusercontent.com/zesty-io/plugin-stripe/master/plugin.yaml
- required: false
--
- url: https://raw.githubusercontent.com/zesty-io/plugin-twitter/master/plugin.yaml
- required: false
--
- url: https://raw.githubusercontent.com/zesty-io/plugin-paypal/master/plugin.yaml
- required: false
+ -
+  url: https://raw.githubusercontent.com/zesty-io/plugin-google-tag-manager/master/plugin.yaml
+  required: false
+ -
+  url: https://raw.githubusercontent.com/zesty-io/plugin-stripe/master/plugin.yaml
+  required: false
+ -
+  url: https://raw.githubusercontent.com/zesty-io/plugin-twitter/master/plugin.yaml
+  required: false
+ -
+  url: https://raw.githubusercontent.com/zesty-io/plugin-paypal/master/plugin.yaml
+  required: false
 
 collections:
 -
