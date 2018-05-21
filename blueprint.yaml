@@ -63,6 +63,8 @@ collections:
  view:  views/homepage.tpl ### relative path
  type:  templateset ### we need to update this naming convention
  content: contents/homepage-contents.yaml ### referenced below
+ hasRoute: true,
+ showAsTable: false,
  fields:
   -
    name: title ### Field name cannot begin with _, _ are for reserved field names
