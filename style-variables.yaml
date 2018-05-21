@@ -7,7 +7,7 @@ variables:
   category: 1
   description:
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 1240px
  -
@@ -17,7 +17,7 @@ variables:
   category: 1
   description: The primary background for elements
   sort: 5
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#ffffff"
  -
@@ -27,7 +27,7 @@ variables:
   category: 1
   description: The default curvature for borders around elements.
   sort: 7
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 0px
  -
@@ -36,7 +36,7 @@ variables:
   label: Navigation Font Color
   category: 4
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#ffffff"
  -
@@ -45,7 +45,7 @@ variables:
   label: Navigation Background Color
   category: 4
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#3b393b"
  -
@@ -55,7 +55,7 @@ variables:
   category: 4
   description: NULL
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 14px
  -
@@ -64,7 +64,7 @@ variables:
   label: Link Color
   category: 3
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#6699cc"
  -
@@ -73,7 +73,7 @@ variables:
   label: Link Hover Color
   category: 3
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#5588bb"
  -
@@ -82,7 +82,7 @@ variables:
   label: Link Hover Decoration
   category: 3
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: underline
   options:
@@ -98,7 +98,7 @@ variables:
   label: Main Body Font
   category: 2
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "'Hind', Helvetica, Arial, sans-serif"
  -
@@ -108,7 +108,7 @@ variables:
   category: 2
   description: NULL
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#111111"
  -
@@ -118,7 +118,7 @@ variables:
   category: 2
   description: NULL
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 16px
  -
@@ -128,7 +128,7 @@ variables:
   category: 2
   description: NULL
   sort: 9
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "'Droid Serif', 'Arial', 'Helvetica', 'sans-serif'"
  -
@@ -138,7 +138,7 @@ variables:
   category: 2
   description: NULL
   sort: 9
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "'Montserrat', 'Arial', 'Helvetica', 'sans-serif'"
  -
@@ -148,7 +148,7 @@ variables:
   category: 2
   description: NULL
   sort: 10
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 500
   options:
@@ -186,7 +186,7 @@ variables:
   category: 2
   description: NULL
   sort: 9
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 1.3em
  -
@@ -196,7 +196,7 @@ variables:
   category: 2
   description: NULL
   sort: 6
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 18px
  -
@@ -206,7 +206,7 @@ variables:
   category: 2
   description: NULL
   sort: 5
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#5a5a5a"
  -
@@ -216,7 +216,7 @@ variables:
   category: 2
   description: NULL
   sort: 4
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 1.6em
  -
@@ -225,7 +225,7 @@ variables:
   label: Button Font Color
   category: 6
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#ffffff"
  -
@@ -234,7 +234,7 @@ variables:
   label: Button Border Radius
   category: 6
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 4px
  -
@@ -244,7 +244,7 @@ variables:
   category: 6
   description: NULL
   sort: 1
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#6699cc"
  -
@@ -254,7 +254,7 @@ variables:
   category: 6
   description: NULL
   sort: 25
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#ffffff"
  -
@@ -264,7 +264,7 @@ variables:
   category: 6
   description: NULL
   sort: 20
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#082470"
  -
@@ -274,7 +274,7 @@ variables:
   category: 1
   description: This color is used for hairlines, borders, even color on tables, and general aesthetics
   sort: 3
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#5FCFA7"
   options:
@@ -303,7 +303,7 @@ variables:
   category: 1
   description: Notification color, should be a dark yellow, red, or orange.
   sort: 5
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#e74c3c"
  -
@@ -313,7 +313,7 @@ variables:
   category: 1
   description: Base color for all the basic type on the website.
   sort: 5
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#181718"
  -
@@ -323,7 +323,7 @@ variables:
   category: 1
   description:
   sort: 12
-  edit_in_content: true
+  editInContent: true
   locked: false
   value:
  -
@@ -333,7 +333,7 @@ variables:
   category: 1
   description: Your option to repeat the uploaded image infinitely, repeat it on the y/x axis, or no repeat at all.
   sort: 25
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: repeat
   options:
@@ -356,7 +356,7 @@ variables:
   category: 1
   description: &lt;strong&gt;Cover&lt;/strong&gt; scales the image to be as large as possible. &lt;strong&gt;Contain&lt;/strong&gt; scales the image to either the width or the height depending on which is longer. &lt;strong&gt;Percentages&lt;/strong&gt; will scale the image to a percentage of the browser
   sort: 30
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 50%
   options:
@@ -406,7 +406,7 @@ variables:
   category: 1
   description: The background color of all content boxes.
   sort: 2
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#ffffff"
  -
@@ -416,7 +416,7 @@ variables:
   category: 1
   description: This occurs in forms, and other areas where space is needed. It's meant to keep the site consistently spaced, there are areas that use this number in division to keep a digital feng shui
   sort: 7
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: 30px
  -
@@ -426,7 +426,7 @@ variables:
   category: 1
   description: This color is used for hairlines, borders, even color on tables, and general aesthetics
   sort: 3
-  edit_in_content: true
+  editInContent: true
   locked: false
   value: "#6699cc"
  -
