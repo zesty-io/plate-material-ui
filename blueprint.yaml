@@ -7,22 +7,22 @@ meta:
  shield: shield.png ## Relative path to image or remote image URL
 settings: ## Initial site settings can be overridden here. All initial settings have a default value if not set in YAML.
   general:
-   robots_on: true
-   site_protocol: http
-   always_redirect_to_https: false
-   preferred_domain_prefix: false
-   show_in_title: true
+   robotsOn: true
+   siteProtocol: http
+   alwaysRedirectToHttps: false
+   preferredDomainPrefix: false
+   showInTitle: true
   developer:
-   ajax_cors_allow_any_origin: false
-   parsley_debugger: false
+   ajaxCorsAllowAnyOrigin: false
+   parsleyDebugger: false
    tips: true
-   basic_content_api_enabled: false
-   basic_content_api_cors_allow_any_origin: false
-   auto_include_js_in_head: true # If this is set to false, you must include a refrence to site.js manually in the code to use the custom javascript files
+   basicContentApiEnabled: false
+   basicContentApiCorsAllowAnyOrigin: false
+   autoIncludeJsInHead: true # If this is set to false, you must include a refrence to site.js manually in the code to use the custom javascript files
   contact:
-   sending_email: NULL
+   sendingEmail: NULL
    recipients: NULL # sends
-   reply_email: NULL
+   replyEmail: NULL
 
 files:
  head:  head.xhtml ## referenced below optional item
