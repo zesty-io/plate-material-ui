@@ -25,7 +25,7 @@ settings: ## Initial site settings can be overridden here. All initial settings 
    replyEmail: NULL
 
 files:
- head:  head.xhtml ## referenced below optional item
+ head: head.xhtml ## referenced below optional item
  styleVariables: style-variables.yaml
  views: views/ ## includes all .tpl files within this folder.
  javascript: js/
@@ -81,6 +81,8 @@ collections:
  name:  clippings
  type:  dataset
  content: contents/clippings-contents.yaml
+ hasRoute: false
+ showAsTable: false
  fields:
   -
    name: site_name
