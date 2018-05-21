@@ -1,8 +1,8 @@
 type: content
 content:
  -
-  link_title: homepage
-  path_part: zesty_home
+  linkTitle: homepage
+  pathPart: zesty_home
   title: Material UI
   content: |
    <p>MUI is a "lightweight" CSS framework that follows Google's Material Design guidelines</p>
