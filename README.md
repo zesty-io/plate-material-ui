@@ -6,7 +6,6 @@ MUI is a lightweight CSS framework that follows Google's Material Design guideli
 
 Full documentation: https://www.muicss.com/
 
-### Material UI Homepage Preview 
+Zesty.io Preview Link http://6fccc9dd0dcf7ee6164059fff249ac34-dev.preview.zestyio.com/
 
-![material UI homepage preview image](https://github.com/kakoga/plate-material-ui/blob/master/material-ui-homepage.png)
 
