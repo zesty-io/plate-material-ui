@@ -56,7 +56,7 @@ plugins:
   url: https://raw.githubusercontent.com/zesty-io/plugin-paypal/master/plugin.yaml
   required: false
 
-collections:
+models:
 -
  label: Homepage
  name:  homepage ### All collection names in a blueprint must be unique
